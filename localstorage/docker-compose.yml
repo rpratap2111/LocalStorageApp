@@ -6,7 +6,7 @@ services:
     container_name: local_pg
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 2111Abc@
+      POSTGRES_PASSWORD: 
       POSTGRES_DB: local_storage
     ports:
       - "5432:5432"
@@ -23,7 +23,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/local_storage
       SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: 2111Abc@
+      SPRING_DATASOURCE_PASSWORD: 
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
 
