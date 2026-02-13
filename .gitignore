@@ -1,0 +1,61 @@
+# =========================
+# Maven / Java
+# =========================
+target/
+*.log
+*.class
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Environment Files (IMPORTANT)
+# =========================
+.env
+
+# =========================
+# Uploads (Local Storage)
+# =========================
+uploads/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Node (if frontend exists)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# IDE - STS
+# =========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# =========================
+# IntelliJ
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
