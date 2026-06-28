@@ -2,6 +2,9 @@
 
 A modern, high-availability file management application built with Spring Boot and React. This system ensures 100% data availability by implementing a resilient hybrid storage approach: it primarily uploads files to AWS S3, but automatically falls back to local file storage if the cloud service is unavailable, utilizing a Circuit Breaker pattern.
 
+## Screenshots
+<img width="1908" height="910" alt="image" src="https://github.com/user-attachments/assets/f5825993-d91f-49c7-842b-cdd5f99b93ef" />
+
 ## Key Features
 
 * **Hybrid Storage Architecture:** Seamlessly switches between AWS S3 (Cloud) and Local Filesystem.
